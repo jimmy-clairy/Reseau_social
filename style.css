@@ -33,10 +33,11 @@ img {
 /* HEADER */
 
 .header {
-    background-color: #3a8cde;
+    background-color: #2b649e;
     min-height: 90px;
     color: #f1f1f1;
     text-align: center;
+    user-select: none;
 }
 
 .header .logo {
@@ -77,10 +78,12 @@ img {
     line-height: 2em;
     cursor: pointer;
     font-weight: 700;
-    width: 45%;
+    width: 48%;
     background-color: #f1f1f100;
     border-radius: 5px;
     transition: 0.4s;
+    user-select: none;
+    padding-left: 5px;
 }
 
 .actuality li:hover{
@@ -124,6 +127,7 @@ img {
    margin-top: 0;
    opacity: 0.6;
    font-weight: 700;
+   user-select: none;
 }
 
 .post .img-first{
@@ -148,6 +152,7 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
+    user-select: none;
 }
 
 .post footer .like:hover {
@@ -184,6 +189,7 @@ img {
     object-fit: cover;
     transition: 0.3s;
 }
+
 .suggestion .friend .photo:hover {
     transform: scale(1.2);
 }
@@ -192,8 +198,14 @@ img {
     margin: 0;
 }
 
-.suggestion .friend .contents p{
+.suggestion .friend .contents p {
     margin: 0 0 10px 0;
+    user-select: none;
+}
+
+.suggestion .add_friends {
+    display: flex;
+    align-items: center;
 }
 
 /* MEDIA */
